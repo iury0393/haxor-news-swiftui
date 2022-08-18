@@ -24,11 +24,6 @@ struct ContentView_Previews: PreviewProvider {
     }
 }
 
-struct Post: Identifiable {
-    let id: String
-    let titler: String
-}
-
 let posts = [
     Post(id: "1", titler: "Hello"),
     Post(id: "2", titler: "Bonjour"),
